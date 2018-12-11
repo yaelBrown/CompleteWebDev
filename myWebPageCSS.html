@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>My Webpage - Title</title>
+		
+		<style type="text/css">
+			body {
+				background: green;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.secondPara {
+				color: red;
+			}
+
+			.underlined {
+				text-decoration: underline;
+			}
+
+			.firstSection {
+				background: Pink;
+				width: 50%;
+				text-align: center;
+			}
+
+			.floatRight {
+				float: right;
+				background: Yellow;
+				position: relative;
+				z-index: 2;
+			}
+
+			.anotherBox {
+				clear: both;
+				background: orange;
+				width: 200px;
+				position: relative;
+				left: 200px;
+				top: -50px;
+				z-index: 1;
+				opacity: .8;
+			}
+
+			.marginBox {
+				background: purple;
+				width: 100px;
+				height: 100px;
+				margin: 100px;
+			}
+
+			.paddingBox {
+				background: gray;
+				width: 100px;
+				height: 100px;
+				margin: 100px;
+				padding: 5px;
+			}
+
+			.square {
+				width: 100px;
+				Height: 100px;
+				margin: 40px;
+				float: left;
+			}
+
+
+			#square1 {
+				background: red;
+				border: 10px black solid;
+			}
+
+			#square2 {
+				background: blue;
+				border-style: ridge solid dotted dashed;
+				border-color: black;
+				border-width: 10px 15px 13px 17px;
+			}
+
+			#square3 {
+				background: silver;
+				border-radius: 20px;
+			}
+
+			.font-styling {
+				Font-family: Arial, Helvetica, sans-serif;
+			}
+
+			#bold {
+				Font-weight: bold;
+			}
+
+			#italic {
+				font-style: italic;
+			}
+
+			#underlined {
+				text-decoration: underline;
+			}
+
+			a{
+				text-decoration: none;
+			}
+
+			a:hover {
+
+			}
+			
+			#size {
+				font-size: 200%;
+			}
+
+			#centerTextAlign {
+				text-align: center;
+				margin-top: 400px;
+				clear: both;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="firstSection">
+			<p style="color:blue;font-size:200%">This is modified with inline css</p>
+			<p class="secondPara">This is a modified with a class sheet</p>
+			<p>Span tag helps <span class="underlined">select</span> elements in paragraphs</p>
+		</div>
+		<div class="floatRight">
+			<p>The text in this box is floating to the right.</p>
+		</div>
+		<div class="anotherBox">
+			<p>This text is another box positioned somewhere</p>
+		</div>
+		<div class="marginBox">
+			<p>This box is modified with margins</p>
+		</div>
+		<div class="paddingBox">
+			<p>This box is modified with paddings</p>
+		</div>
+		<div id="square1" class="square"></div>
+		<div id="square2" class="square"></div>
+		<div id="square3" class="square"></div>
+		<p class="font-styling">This font is styled by CSS</p>
+		<p class="font-styling">
+			<span id="bold">Bold</span>
+			<span id="italic">Italic</span> 
+			<span id="underlined">Underlined</span> 
+			<span id="size">Text size</span>
+		</p>
+		<p class="centerTextAlign">Text aligned centered</p>
+	</body>
+</html>

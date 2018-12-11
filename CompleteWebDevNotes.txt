@@ -1,0 +1,226 @@
+Complete Web Developer 2.0 notes
+    HTML
+      Free shit
+        www.ecowebhosting.co.uk/cp/webdev2
+        jsbin.com  - hosts code
+
+      wwww.example.com
+      Ctrl+click > view page source
+
+      HTML - HyperText Markup Language
+        <> = brackets
+        Opening tags and closing tags
+
+      DOCTYPE - Tells the browser which type of HTML is used on a webpage
+        Browsers use DOCTYPE to determine how to render a page.
+
+      CSS - Casscading Style Sheets
+
+      MetaData - Set of data that describes and gives information about other data
+
+      Headers only go from h1 - to h6
+        Also help get your page up on google with important stuff in H-tags
+
+      xhtml - a precise version of html that you would want to some use in 'some circumstances'
+        <br />
+        Does not work with html or html5
+
+      html formatting
+
+      hotlinking - is linking on another site
+
+      absolute links - linking to any website on the internet, not on your server
+      relative links - linking within your website
+
+      html entities - a way to display symbols on your page.
+        Can google "html entities" to find the various numbers
+
+      iframes are used for embedding content from other sites onto yours
+        Can use it to translate information
+        or Embedding videos from other sites. 
+
+      filezilla is free and actively updated ftp client. 
+
+      live-server (node package) allows you to see changes as you update them
+        npm install -g live-server
+        https://github.com/tapio/live-server
+
+      Further Reading
+        HTML Tag reference
+            http://completewebdevelopercourse.com/content/furtherreading/Reference%201%20-%20HTML%20Tag%20Reference.pdf
+            1. Your First Website
+            - http://www.example.com
+            - http://www.w3schools.com/
+            2. Web Page Structure
+            - http://www.example.com
+            3. Header Tags
+            - http://www.w3schools.com/html/html_headings.asp
+            4. Formatting Text
+            - http://www.w3schools.com/css/css_text.asp
+            - http://www.w3schools.com/html/html_formatting.asp
+            5. Unordered Lists
+            - http://www.w3schools.com/tags/tag_ul.asp
+            - http://www.w3schools.com/html/html_lists.asp
+            Images
+            - http://www.w3schools.com/html/html_images.asp
+            - http://www.w3schools.com/tags/tag_img.asp
+            Forms
+            - http://www.w3schools.com/html/html_forms.asp
+            - http://www.w3.org/TR/html401/interact/forms.html
+            Links
+            - http://www.w3schools.com/html/html_links.asp
+            - http://www.w3schools.com/tags/tag_a.asp
+            Tables
+            - http://www.w3schools.com/html/html_tables.asp
+            - http://www.w3schools.com/tags/tag_table.asp
+            IFrames
+            - http://www.w3schools.com/tags/tag_iframe.asp
+
+    CSS
+        # types of CSS implementations
+            inline css - css code within the html tags
+            internal css - css code where all the style are in a part of the web page
+
+        3 different selectors in css
+            tag - would select all <tag> html tags
+            .class - would select all <tag class="class"></tag> html tags
+                classes can be used more than once.
+            #id - This would select all <tag id="id"></tag>
+                ID's should only be used once per page. 
+
+        can add class and id tags to <span></span> and <div></div> tags
+
+        Should never use spaces in your classes or id names
+
+        can use html color codes to get better colors. 
+            html-color-codes.info
+            "alpha-numeric" color code
+                is actually hexidecimal
+
+        Floats are used for absolute positioning of items
+            Elements would float over positioned items
+            If you float to the left or right, your item with position to the left or right, respectively. 
+            "Clear: both;" - If you want someone to appear underneath of floated elements.
+
+        Positioning is used to position items as well. 
+            Default value is: Static
+                Fixed
+                Relative
+                Absolute
+            Relative - Position items relative to where it would otherwise be normally be. 
+            Absolute - Takes the object you are positioning out of the flow of the page.
+                Can add stuff on top of other stuff
+                Moves when scrolled
+            Fixed - Does not move when the page is scrolled. 
+
+        Z-Index is used to pick what elements are on top of what. 
+            Higher Z-Index would appear on the top
+            Requires position of 'Relative'
+
+        Opacity is used to make objects transparent
+
+        Margin are used to provide invisable space around objects
+            Use when you want element to remain in flow of the page to spread everything out relative to it
+            Use position when you want to move it out of the flow of the page
+                margin: top/bottom left/right
+                margin: top right bottom left
+                margin-left:, margin-right:, margin-top:, margin-bottom:
+
+        Padding does the same thing as margins's but inside the element
+
+        CSS Reset will clear default browser margins per browsers
+            Google 'CSS reset' to find one
+
+        Set border-radius to half the width of square turns it into circle
+            or set it to 50%
+
+        Websafe fonts - Font's that will show up on most browsers
+            google 'web-safe fonts'
+            font families - are when there multiple fonts and try to display them in order
+            font.google.com - find fonts hosted by google
+            https://www.w3schools.com/cssref/pr_font_font-family.asp - how to use the font family property
+
+        'text-decoration: none;' add to anchor tag of css, links will not be underlined. 
+
+        'a:hover', styles a link when the cursor is being hovered over
+            'a:hover, a:visted, a' 
+            google search 'pseduo classes linked'
+            
+        'css styling text' in google to find more css text styles.
+
+        'text-align:' aligns text in css
+
+        'a:hover, a:visted, a' 
+
+        'link rel=stylesheet type="text/csss" href="bbc.css"'
+
+        Further Reading
+            1. What is CSS?
+            - http://www.w3schools.com/css/css_intro.asp
+            - http://en.wikipedia.org/wiki/Cascading_Style_Sheets
+            - http://html.net/tutorials/css/lesson1.php
+            2. Inline CSS
+            - http://www.w3schools.com/css/css_howto.asp
+            3. Internal CSS – Classes and IDs
+            - http://www.w3schools.com/cssref/css_selectors.asp
+            - http://css-tricks.com/the-difference-between-id-and-class/
+            - http://htmldog.com/guides/css/intermediate/classid/
+            4. Divs
+            - http://www.w3schools.com/tags/tag_div.asp
+            - http://gostats.com/resources/css-div-tutorial.html
+            5. HTML Color Codes
+            - http://html-color-codes.info/
+            - http://www.w3schools.com/html/html_colors.asp
+            - http://www.w3schools.com/html/html_colornames.asp
+            6. Floating
+            - http://www.w3schools.com/css/css_float.asp
+            - http://www.w3schools.com/cssref/pr_class_float.asp
+            - http://css-tricks.com/all-about-floats/
+            7. Positioning
+            - http://www.w3schools.com/css/css_positioning.asp
+            - http://www.barelyfitz.com/screencast/html-training/css/positioning/
+            - http://alistapart.com/article/css-positioning-101
+            8. Margins
+            - http://www.w3schools.com/css/css_margin.asp
+            - http://www.w3schools.com/cssref/pr_margin.asp
+            - http://www.htmldog.com/guides/css/beginner/margins/
+            9. Padding
+            - http://www.w3schools.com/css/css_padding.asp
+            - http://www.w3schools.com/cssref/pr_padding.asp
+            10. Borders
+            - http://www.w3schools.com/css/css_border.asp
+            - http://www.w3schools.com/css/css3_borders.asp
+            - http://www.w3schools.com/cssref/pr_border-style.asp
+            11. Fonts
+            - http://www.w3schools.com/css/css_font.asp
+            - http://www.w3schools.com/cssref/css_websafe_fonts.asp
+            - https://www.google.com/fonts
+            12. Styling Text
+            - http://www.w3schools.com/css/css_text.asp
+            - http://csstxt.com/
+            13. Aligning Text
+            - http://www.w3schools.com/cssref/pr_text_text-align.asp
+            - http://www.w3schools.com/css/css_align.asp
+            14. Styling Links
+            - http://www.w3schools.com/css/css_link.asp
+            - http://www.w3schools.com/cssref/sel_link.asp
+            15. External CSS
+            - http://www.w3schools.com/css/css_howto.asp
+
+    Javascript
+        document.getElementById("idName") - Used to get elements by their ID tag. 
+
+        make sure you use comments to comment out your js.
+
+        Becareful of js thats before the objects it modifies.
+            Pages load from top to bottom.
+
+        document.getElementById("id").style.color = "red";
+            Will change objects color to red. 
+            style.fontSize - will change font size
+            style.display = "none"; - will make item disappear
+
+        arrayName.push("something to push") - Will add elements onto the end of an array.
+
+        arrayName.splice(0,1,2) - removes items from array or can be used to add/replace items to array as well.
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <style type="text/css">
+    .redCircle {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    .blueCircle {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+    }
+
+    .yellowCircle {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 50%;
+    }
+  </style>
+
+  <title>Disappearing Circles - Javascript</title>
+</head>
+<body>
+  <div class="redCircle" id="red"></div>
+  <div class="blueCircle" id="blue"></div>
+  <div class="yellowCircle" id="yellow"></div>
+
+  <script type="text/javascript">
+
+    document.getElementById("red").onclick = function() {
+      document.getElementById("red").style.display = "none";
+    }
+
+    document.getElementById("blue").onclick = function() {
+      document.getElementById("blue").style.display = "none";
+    }
+
+    document.getElementById("yellow").onclick = function() {
+      document.getElementById("yellow").style.display = "none";
+    }
+
+  </script>
+
+</body>
+</html>
