@@ -1,0 +1,10 @@
+CNN website recreate notes 
+
+body 
+  bgcolor: fefefe
+
+navbar
+  color: 0f0f0f
+  cnn red: c40003
+  text color: b0b0b0
+
